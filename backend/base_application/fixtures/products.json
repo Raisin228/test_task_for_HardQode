@@ -1,0 +1,50 @@
+[
+  {
+    "model": "base_application.product",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "title": "\"?þúþûõýøõ Python\": úº¨¸ ôû  ýð¢øýð??ø¿",
+      "data_start": "2024-02-28T17:30:35Z",
+      "price": 3500,
+      "min_quant_students": 0,
+      "max_quant_students": 100
+    }
+  },
+  {
+    "model": "base_application.product",
+    "pk": 2,
+    "fields": {
+      "author": 1,
+      "title": "?ýªõ¨ðúªøòý?ù ª¨õýðö?¨ ÿþ SQL",
+      "data_start": "2024-02-20T03:00:00Z",
+      "price": 0,
+      "min_quant_students": 0,
+      "max_quant_students": 1000
+    }
+  },
+  {
+    "model": "base_application.product",
+    "pk": 3,
+    "fields": {
+      "author": 1,
+      "title": "Web-ªõ¿ýþûþóøø",
+      "data_start": "2024-01-01T15:00:00Z",
+      "price": 7200,
+      "min_quant_students": 0,
+      "max_quant_students": 5
+    }
+  },
+  {
+    "model": "base_application.product",
+    "pk": 4,
+    "fields": {
+      "author": 3,
+      "title": "\"?þúþûõýøõ Python\": úº¨¸ ôû  ÿ¨þ¯õ¸¸øþýðûþò",
+      "data_start": "2024-03-10T09:00:00Z",
+      "price": 4000,
+      "min_quant_students": 0,
+      "max_quant_students": 1000
+    }
+  }
+]
