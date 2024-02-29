@@ -1,0 +1,940 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-02-29T16:29:12.089Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "\"Поколение Python\": курс для начинающих",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-02-29T16:29:38.049Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Интерактивный тренажёр по SQL",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-02-29T16:30:36.933Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Основы языка Python",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-02-29T16:31:22.190Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Введение в SQL",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-02-29T16:31:46.251Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "ИВТ-21БО",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-02-29T16:31:58.818Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "ИТ-11МО",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-02-29T16:35:17.322Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "Введение в Web разработку",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-02-29T16:35:45.067Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Архитектура Web приложений",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-02-29T16:36:11.330Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ПИЭ-33БО",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-02-29T16:38:26.891Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Тестовая группа",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-02-29T16:38:40.665Z",
+      "user": 2,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Тестовая группа",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-02-29T16:39:58.913Z",
+      "user": 2,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "grisha",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-02-29T18:11:25.687Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ПИЭ-33БО",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (1)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-02-29T18:11:31.139Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ПИЭ-33БО",
+      "action_flag": 2,
+      "change_message": "[{\"deleted\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (None)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-02-29T18:11:35.427Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ПИЭ-33БО",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (2)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-02-29T18:12:30.128Z",
+      "user": 2,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "sergey",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-02-29T18:12:44.084Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ПИЭ-33БО",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (3)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-02-29T18:14:33.739Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ПИЭ-33БО",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-02-29T18:14:42.412Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ПИЭ-33БО",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-02-29T18:21:28.349Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "ПИЭ-32БО",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-02-29T18:26:21.013Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "ИТ-11МО",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (4)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-02-29T18:26:31.668Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "ИВТ-21БО",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (5)\"}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-02-29T18:26:38.008Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "ИВТ-21БО",
+      "action_flag": 2,
+      "change_message": "[{\"deleted\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (None)\"}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Учебная группа",
+      "content_type": 7,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Учебная группа",
+      "content_type": 7,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Учебная группа",
+      "content_type": 7,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Учебная группа",
+      "content_type": 7,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Студент и группа",
+      "content_type": 8,
+      "codename": "add_groupstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Студент и группа",
+      "content_type": 8,
+      "codename": "change_groupstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Студент и группа",
+      "content_type": 8,
+      "codename": "delete_groupstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Студент и группа",
+      "content_type": 8,
+      "codename": "view_groupstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Продукт",
+      "content_type": 9,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Продукт",
+      "content_type": 9,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Продукт",
+      "content_type": 9,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Продукт",
+      "content_type": 9,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Урок",
+      "content_type": 10,
+      "codename": "add_lesson"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Урок",
+      "content_type": 10,
+      "codename": "change_lesson"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Урок",
+      "content_type": 10,
+      "codename": "delete_lesson"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Урок",
+      "content_type": 10,
+      "codename": "view_lesson"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$N0AVvUpwweDWDwwvg3TrZm$e2f4hBumy7igmQ83z1rj2mUOMcyltsiZCfZO/rvcwCk=",
+      "last_login": "2024-02-29T18:25:47.953Z",
+      "is_superuser": true,
+      "username": "bogdan",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-02-29T16:17:26.007Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$B7z3Rc9v9Nx6e6mpItqjQL$hnRF1+N8VJJphb58uXevjj1FC3t2XsscCrIu7Rcf4Og=",
+      "last_login": "2024-02-29T16:32:43.678Z",
+      "is_superuser": true,
+      "username": "kirill",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-02-29T16:32:32.651Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$GbhlTamEraudUhrHiOlWow$jrDWW6K/0gIHz1JwUYAclPL0TuqGYQvSj6TRRCgwWHw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "grisha",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-02-29T16:39:58.360Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$6WqQVdY8ldqN8sCEKjovYe$PDpdNnVZ711+D0iX6XmY7/3qOYIyRZu+5S2CmmkH7Bk=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sergey",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-02-29T18:12:29.608Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "base_application",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "base_application",
+      "model": "groupstudent"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "base_application",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "base_application",
+      "model": "lesson"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "od5lu7csd8195x19ng63mwpk1g0liihx",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGln-BduU9DlDtN5d4wCypTipEHeHSCmgfTPzXmKCbS3T1nmZZhIXocXpd0uAD647oDvUW5PY6rrMSe6KPGiXYyN-Xg_376BAL98amYGNMZCD9ZRDMAmVTYRIhlFF7aOPzvGAg1eJonXs7DmDdoPBZEm8Pw3IOI8:1rfl6J:G-q-t4Ha6HHgKMh5sFSnOM1s6gmuETi1U8DuWFGWTk0",
+      "expire_date": "2024-03-14T18:25:47.956Z"
+    }
+  },
+  {
+    "model": "base_application.product",
+    "pk": 2,
+    "fields": {
+      "author": 1,
+      "title": "\"Поколение Python\": курс для начинающих",
+      "data_start": "2024-02-29T16:29:06Z",
+      "price": 3500,
+      "min_quant_students": 0,
+      "max_quant_students": 10
+    }
+  },
+  {
+    "model": "base_application.product",
+    "pk": 3,
+    "fields": {
+      "author": 1,
+      "title": "Интерактивный тренажёр по SQL",
+      "data_start": "2024-02-11T21:00:00Z",
+      "price": 0,
+      "min_quant_students": 0,
+      "max_quant_students": 1000
+    }
+  },
+  {
+    "model": "base_application.product",
+    "pk": 4,
+    "fields": {
+      "author": 2,
+      "title": "Введение в Web разработку",
+      "data_start": "2024-03-10T09:00:00Z",
+      "price": 2500,
+      "min_quant_students": 0,
+      "max_quant_students": 5
+    }
+  },
+  {
+    "model": "base_application.lesson",
+    "pk": 1,
+    "fields": {
+      "title": "Основы языка Python",
+      "link_to_video": "https://www.youtube.com/watch?v=wDmPgXhlDIg&t=12s",
+      "product": 2
+    }
+  },
+  {
+    "model": "base_application.lesson",
+    "pk": 2,
+    "fields": {
+      "title": "Введение в SQL",
+      "link_to_video": "https://www.youtube.com/watch?v=59xLm12RkFc&t=2s",
+      "product": 3
+    }
+  },
+  {
+    "model": "base_application.lesson",
+    "pk": 3,
+    "fields": {
+      "title": "Архитектура Web приложений",
+      "link_to_video": "https://cdn.stepik.net/video/28844/360/4dbb5b7f03ce3ddef1e2b2187ef61feb.mp4",
+      "product": 4
+    }
+  },
+  {
+    "model": "base_application.group",
+    "pk": 1,
+    "fields": {
+      "title": "ИВТ-21БО",
+      "product": 2
+    }
+  },
+  {
+    "model": "base_application.group",
+    "pk": 2,
+    "fields": {
+      "title": "ИТ-11МО",
+      "product": 3
+    }
+  },
+  {
+    "model": "base_application.group",
+    "pk": 3,
+    "fields": {
+      "title": "ПИЭ-33БО",
+      "product": 4
+    }
+  },
+  {
+    "model": "base_application.group",
+    "pk": 4,
+    "fields": {
+      "title": "ПИЭ-32БО",
+      "product": 4
+    }
+  },
+  {
+    "model": "base_application.groupstudent",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "group": 3
+    }
+  },
+  {
+    "model": "base_application.groupstudent",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "group": 3
+    }
+  },
+  {
+    "model": "base_application.groupstudent",
+    "pk": 4,
+    "fields": {
+      "user": 1,
+      "group": 2
+    }
+  }
+]
