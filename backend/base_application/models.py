@@ -27,6 +27,18 @@ class Product(models.Model):
         verbose_name_plural = "Продукты"
 
 
+class ProductUser(models.Model):
+    """Доп. таблица для связи студент <-> доступ к продукту"""
+    id = models.AutoField(primary_key=True)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    product = models.ForeignKey('Product', on_delete=models.CASCADE)
+
+    class Meta:
+        db_table = "ProductUser"
+        verbose_name = "Студент курса"
+        verbose_name_plural = "Студенты курса"
+
+
 class Lesson(models.Model):
     """Модель урока"""
     id = models.AutoField(primary_key=True)
@@ -66,5 +78,6 @@ class GroupStudent(models.Model):
 
     class Meta:
         db_table = "GroupStudent"
-        verbose_name = "Студент и группа"
-        verbose_name_plural = "Студенты и группы"
+        verbose_name = "Студент группы"
+        verbose_name_plural = "Студенты группы"
+        unique_together = ('user', 'group')

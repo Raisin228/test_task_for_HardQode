@@ -1,6 +1,5 @@
 from django.contrib import admin
-
-from .models import Product, Lesson, Group, GroupStudent
+from .signals import *
 
 
 class AbstractClass(admin.ModelAdmin):
@@ -33,9 +32,16 @@ class AbstractClass(admin.ModelAdmin):
         return False
 
 
+class ProductUserInline(admin.TabularInline):
+    """Добавил инлайн форму для отображения списка всех студентов принадлежащих курсу"""
+    model = ProductUser
+    extra = 1
+
+
 @admin.register(Product)
 class ProductAdminView(AbstractClass):
     """Возможность редактирования продуктов из админки"""
+    inlines = (ProductUserInline,)
     list_display = ('title', 'author', 'data_start')
     readonly_fields = ('data_start', 'author')
     fields = ('author', 'title', 'data_start', 'price', 'min_quant_students', 'max_quant_students')
@@ -80,7 +86,9 @@ class LessonAdminView(AbstractClass):
 class GroupStudentInline(admin.TabularInline):
     """Добавил инлайн форму для отображения списка студентов принадлежащих группе"""
     model = GroupStudent
-    extra = 1
+    readonly_fields = ['user']
+    can_delete = False
+    extra = 0
 
 
 @admin.register(Group)
@@ -93,7 +101,7 @@ class GroupAdminView(AbstractClass):
     fields = ('title', 'product')
 
     def get_form(self, request, obj=None, **kwargs):
-        """Получаем форму и фильтруем. Оставляем только те данные которые принадлежат этому автору"""
+        """Получаем форму и фильтруем. Оставляем только те курсы которые принадлежат этому автору"""
         form = super().get_form(request, obj, **kwargs)
         if obj is None:
             form.base_fields['product'].queryset = form.base_fields['product'].queryset.filter(
