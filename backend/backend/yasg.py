@@ -8,6 +8,7 @@ schema_view = get_schema_view(
         title="API Documentation",
         default_version='v1',
         description="API Documentation for test task",
+        contact=openapi.Contact(url="https://vk.com/bog_at_04"),
         license=openapi.License(name="BSD License"),
     ),
     public=True,
