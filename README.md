@@ -1,1 +1,1 @@
-[![Logo](https://github.com/Raisin228/test_task_for_HardQode/blob/main/backend/photos/Screenshot%202024-03-03%20080714(1).png)](https://github.com/Raisin228/test_task_for_HardQode)
+[![ProjectLogo](https://github.com/Raisin228/test_task_for_HardQode/blob/main/backend/photos/Logo.png)](https://github.com/Raisin228/test_task_for_HardQode)
