@@ -118,23 +118,23 @@ Django приложения.
 ---
 
 ###### *Фото №1. Добавление урока.*  
-[Img1](https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/adding_lesson.png)
+<img src="https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/adding_lesson.png">
 
 ###### *Фото №2. Добавление онлайн курса.*  
-[Img2](https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/adding_product.png)
+<img src="https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/adding_product.png">
 
 ###### *Фото №3. Все курсы системы со стороны админа.*  
-[Img3](https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/Django_admin_product.png)
+<img src="https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/Django_admin_product.png">
 
 ###### *Фото №4. Все пользователи онлайн школы.*  
-[Img4](https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/Django_admin_users.png)
+<img src="https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/Django_admin_users.png)">
 
 ###### *Фото №5. Группы существующие на платформе.*  
-[Img5](https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/show_all_groups.png)
+<img src="https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/show_all_groups.png)">
 
 ###### *Фото №6. Документация к проекту [Redoc].*  
-[Img6](https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/redoc.png)
+<img src="https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/redoc.png)">
 
 ###### *Фото №7. Документация к проекту [Swagger].*  
-[Img7](https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/swagger.png)
+<img src="https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/swagger.png)">
 
