@@ -1,13 +1,39 @@
 [
   {
     "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-03-03T04:40:04.416Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "'Поколение Python': курс для начинающих",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-03-03T04:40:43.000Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Интерактивный тренажер по SQL",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
     "pk": 3,
     "fields": {
-      "action_time": "2024-02-29T16:29:12.089Z",
+      "action_time": "2024-03-03T04:41:07.130Z",
       "user": 1,
       "content_type": 9,
-      "object_id": "2",
-      "object_repr": "\"Поколение Python\": курс для начинающих",
+      "object_id": "1",
+      "object_repr": "IT-11MO",
       "action_flag": 1,
       "change_message": "[{\"added\": {}}]"
     }
@@ -16,11 +42,11 @@
     "model": "admin.logentry",
     "pk": 4,
     "fields": {
-      "action_time": "2024-02-29T16:29:38.049Z",
+      "action_time": "2024-03-03T04:41:18.633Z",
       "user": 1,
       "content_type": 9,
-      "object_id": "3",
-      "object_repr": "Интерактивный тренажёр по SQL",
+      "object_id": "2",
+      "object_repr": "IT-21MO",
       "action_flag": 1,
       "change_message": "[{\"added\": {}}]"
     }
@@ -29,9 +55,22 @@
     "model": "admin.logentry",
     "pk": 5,
     "fields": {
-      "action_time": "2024-02-29T16:30:36.933Z",
+      "action_time": "2024-03-03T04:41:28.832Z",
       "user": 1,
-      "content_type": 10,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "'Поколение Python': курс для начинающих",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041c\\u0430\\u043a\\u0441\\u0438\\u043c\\u0430\\u043b\\u044c\\u043d\\u043e\\u0435 \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e \\u0441\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442\\u043e\\u0432 \\u0432 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-03-03T04:42:14.351Z",
+      "user": 1,
+      "content_type": 8,
       "object_id": "1",
       "object_repr": "Основы языка Python",
       "action_flag": 1,
@@ -40,26 +79,13 @@
   },
   {
     "model": "admin.logentry",
-    "pk": 6,
-    "fields": {
-      "action_time": "2024-02-29T16:31:22.190Z",
-      "user": 1,
-      "content_type": 10,
-      "object_id": "2",
-      "object_repr": "Введение в SQL",
-      "action_flag": 1,
-      "change_message": "[{\"added\": {}}]"
-    }
-  },
-  {
-    "model": "admin.logentry",
     "pk": 7,
     "fields": {
-      "action_time": "2024-02-29T16:31:46.251Z",
+      "action_time": "2024-03-03T04:42:45.527Z",
       "user": 1,
-      "content_type": 7,
-      "object_id": "1",
-      "object_repr": "ИВТ-21БО",
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "ООП Python",
       "action_flag": 1,
       "change_message": "[{\"added\": {}}]"
     }
@@ -68,11 +94,11 @@
     "model": "admin.logentry",
     "pk": 8,
     "fields": {
-      "action_time": "2024-02-29T16:31:58.818Z",
+      "action_time": "2024-03-03T04:43:30.900Z",
       "user": 1,
-      "content_type": 7,
-      "object_id": "2",
-      "object_repr": "ИТ-11МО",
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Введение в SQL и бд",
       "action_flag": 1,
       "change_message": "[{\"added\": {}}]"
     }
@@ -81,11 +107,11 @@
     "model": "admin.logentry",
     "pk": 9,
     "fields": {
-      "action_time": "2024-02-29T16:35:17.322Z",
-      "user": 2,
+      "action_time": "2024-03-03T04:44:09.218Z",
+      "user": 1,
       "content_type": 9,
-      "object_id": "4",
-      "object_repr": "Введение в Web разработку",
+      "object_id": "3",
+      "object_repr": "IVT-11BO",
       "action_flag": 1,
       "change_message": "[{\"added\": {}}]"
     }
@@ -94,11 +120,11 @@
     "model": "admin.logentry",
     "pk": 10,
     "fields": {
-      "action_time": "2024-02-29T16:35:45.067Z",
-      "user": 2,
-      "content_type": 10,
+      "action_time": "2024-03-03T04:44:30.128Z",
+      "user": 1,
+      "content_type": 4,
       "object_id": "3",
-      "object_repr": "Архитектура Web приложений",
+      "object_repr": "elizaveta",
       "action_flag": 1,
       "change_message": "[{\"added\": {}}]"
     }
@@ -107,11 +133,11 @@
     "model": "admin.logentry",
     "pk": 11,
     "fields": {
-      "action_time": "2024-02-29T16:36:11.330Z",
-      "user": 2,
-      "content_type": 7,
-      "object_id": "3",
-      "object_repr": "ПИЭ-33БО",
+      "action_time": "2024-03-03T04:44:48.768Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "grisha",
       "action_flag": 1,
       "change_message": "[{\"added\": {}}]"
     }
@@ -120,11 +146,11 @@
     "model": "admin.logentry",
     "pk": 12,
     "fields": {
-      "action_time": "2024-02-29T16:38:26.891Z",
-      "user": 2,
-      "content_type": 3,
-      "object_id": "1",
-      "object_repr": "Тестовая группа",
+      "action_time": "2024-03-03T04:45:08.556Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "sergey",
       "action_flag": 1,
       "change_message": "[{\"added\": {}}]"
     }
@@ -133,169 +159,91 @@
     "model": "admin.logentry",
     "pk": 13,
     "fields": {
-      "action_time": "2024-02-29T16:38:40.665Z",
-      "user": 2,
-      "content_type": 3,
+      "action_time": "2024-03-03T04:45:31.915Z",
+      "user": 1,
+      "content_type": 7,
       "object_id": "1",
-      "object_repr": "Тестовая группа",
-      "action_flag": 3,
-      "change_message": ""
+      "object_repr": "'Поколение Python': курс для начинающих",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u043a\\u0443\\u0440\\u0441\\u0430\", \"object\": \"ProductUser object (1)\"}}, {\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u043a\\u0443\\u0440\\u0441\\u0430\", \"object\": \"ProductUser object (2)\"}}, {\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u043a\\u0443\\u0440\\u0441\\u0430\", \"object\": \"ProductUser object (3)\"}}, {\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u043a\\u0443\\u0440\\u0441\\u0430\", \"object\": \"ProductUser object (4)\"}}]"
     }
   },
   {
     "model": "admin.logentry",
     "pk": 14,
     "fields": {
-      "action_time": "2024-02-29T16:39:58.913Z",
-      "user": 2,
-      "content_type": 4,
-      "object_id": "3",
-      "object_repr": "grisha",
-      "action_flag": 1,
-      "change_message": "[{\"added\": {}}]"
+      "action_time": "2024-03-03T04:45:58.084Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Интерактивный тренажер по SQL",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u043a\\u0443\\u0440\\u0441\\u0430\", \"object\": \"ProductUser object (5)\"}}]"
     }
   },
   {
     "model": "admin.logentry",
     "pk": 15,
     "fields": {
-      "action_time": "2024-02-29T18:11:25.687Z",
+      "action_time": "2024-03-03T04:47:19.802Z",
       "user": 2,
       "content_type": 7,
       "object_id": "3",
-      "object_repr": "ПИЭ-33БО",
-      "action_flag": 2,
-      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (1)\"}}]"
+      "object_repr": "Deep Learning: базовый поток",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
     }
   },
   {
     "model": "admin.logentry",
     "pk": 16,
     "fields": {
-      "action_time": "2024-02-29T18:11:31.139Z",
+      "action_time": "2024-03-03T04:47:38.321Z",
       "user": 2,
-      "content_type": 7,
-      "object_id": "3",
-      "object_repr": "ПИЭ-33БО",
-      "action_flag": 2,
-      "change_message": "[{\"deleted\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (None)\"}}]"
+      "content_type": 9,
+      "object_id": "4",
+      "object_repr": "PI-41BO",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
     }
   },
   {
     "model": "admin.logentry",
     "pk": 17,
     "fields": {
-      "action_time": "2024-02-29T18:11:35.427Z",
+      "action_time": "2024-03-03T04:49:02.707Z",
       "user": 2,
-      "content_type": 7,
-      "object_id": "3",
-      "object_repr": "ПИЭ-33БО",
-      "action_flag": 2,
-      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (2)\"}}]"
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Лекция, введение в ИИ. Михаил Бурцев",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
     }
   },
   {
     "model": "admin.logentry",
     "pk": 18,
     "fields": {
-      "action_time": "2024-02-29T18:12:30.128Z",
+      "action_time": "2024-03-03T04:49:43.475Z",
       "user": 2,
-      "content_type": 4,
+      "content_type": 9,
       "object_id": "4",
-      "object_repr": "sergey",
-      "action_flag": 1,
-      "change_message": "[{\"added\": {}}]"
+      "object_repr": "PI-41BO",
+      "action_flag": 2,
+      "change_message": "[]"
     }
   },
   {
     "model": "admin.logentry",
     "pk": 19,
     "fields": {
-      "action_time": "2024-02-29T18:12:44.084Z",
+      "action_time": "2024-03-03T04:49:58.108Z",
       "user": 2,
       "content_type": 7,
       "object_id": "3",
-      "object_repr": "ПИЭ-33БО",
+      "object_repr": "Deep Learning: базовый поток",
       "action_flag": 2,
-      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (3)\"}}]"
-    }
-  },
-  {
-    "model": "admin.logentry",
-    "pk": 20,
-    "fields": {
-      "action_time": "2024-02-29T18:14:33.739Z",
-      "user": 2,
-      "content_type": 7,
-      "object_id": "3",
-      "object_repr": "ПИЭ-33БО",
-      "action_flag": 2,
-      "change_message": "[]"
-    }
-  },
-  {
-    "model": "admin.logentry",
-    "pk": 21,
-    "fields": {
-      "action_time": "2024-02-29T18:14:42.412Z",
-      "user": 2,
-      "content_type": 7,
-      "object_id": "3",
-      "object_repr": "ПИЭ-33БО",
-      "action_flag": 2,
-      "change_message": "[]"
-    }
-  },
-  {
-    "model": "admin.logentry",
-    "pk": 22,
-    "fields": {
-      "action_time": "2024-02-29T18:21:28.349Z",
-      "user": 2,
-      "content_type": 7,
-      "object_id": "4",
-      "object_repr": "ПИЭ-32БО",
-      "action_flag": 1,
-      "change_message": "[{\"added\": {}}]"
-    }
-  },
-  {
-    "model": "admin.logentry",
-    "pk": 23,
-    "fields": {
-      "action_time": "2024-02-29T18:26:21.013Z",
-      "user": 1,
-      "content_type": 7,
-      "object_id": "2",
-      "object_repr": "ИТ-11МО",
-      "action_flag": 2,
-      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (4)\"}}]"
-    }
-  },
-  {
-    "model": "admin.logentry",
-    "pk": 24,
-    "fields": {
-      "action_time": "2024-02-29T18:26:31.668Z",
-      "user": 1,
-      "content_type": 7,
-      "object_id": "1",
-      "object_repr": "ИВТ-21БО",
-      "action_flag": 2,
-      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (5)\"}}]"
-    }
-  },
-  {
-    "model": "admin.logentry",
-    "pk": 25,
-    "fields": {
-      "action_time": "2024-02-29T18:26:38.008Z",
-      "user": 1,
-      "content_type": 7,
-      "object_id": "1",
-      "object_repr": "ИВТ-21БО",
-      "action_flag": 2,
-      "change_message": "[{\"deleted\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u0438 \\u0433\\u0440\\u0443\\u043f\\u043f\\u0430\", \"object\": \"GroupStudent object (None)\"}}]"
+      "change_message": "[{\"added\": {\"name\": \"\\u0421\\u0442\\u0443\\u0434\\u0435\\u043d\\u0442 \\u043a\\u0443\\u0440\\u0441\\u0430\", \"object\": \"ProductUser object (6)\"}}]"
     }
   },
   {
@@ -518,152 +466,188 @@
     "model": "auth.permission",
     "pk": 25,
     "fields": {
-      "name": "Can add Учебная группа",
+      "name": "Can add Продукт",
       "content_type": 7,
-      "codename": "add_group"
+      "codename": "add_product"
     }
   },
   {
     "model": "auth.permission",
     "pk": 26,
     "fields": {
-      "name": "Can change Учебная группа",
+      "name": "Can change Продукт",
       "content_type": 7,
-      "codename": "change_group"
+      "codename": "change_product"
     }
   },
   {
     "model": "auth.permission",
     "pk": 27,
     "fields": {
-      "name": "Can delete Учебная группа",
+      "name": "Can delete Продукт",
       "content_type": 7,
-      "codename": "delete_group"
+      "codename": "delete_product"
     }
   },
   {
     "model": "auth.permission",
     "pk": 28,
     "fields": {
-      "name": "Can view Учебная группа",
+      "name": "Can view Продукт",
       "content_type": 7,
-      "codename": "view_group"
+      "codename": "view_product"
     }
   },
   {
     "model": "auth.permission",
     "pk": 29,
     "fields": {
-      "name": "Can add Студент и группа",
+      "name": "Can add Урок",
       "content_type": 8,
-      "codename": "add_groupstudent"
+      "codename": "add_lesson"
     }
   },
   {
     "model": "auth.permission",
     "pk": 30,
     "fields": {
-      "name": "Can change Студент и группа",
+      "name": "Can change Урок",
       "content_type": 8,
-      "codename": "change_groupstudent"
+      "codename": "change_lesson"
     }
   },
   {
     "model": "auth.permission",
     "pk": 31,
     "fields": {
-      "name": "Can delete Студент и группа",
+      "name": "Can delete Урок",
       "content_type": 8,
-      "codename": "delete_groupstudent"
+      "codename": "delete_lesson"
     }
   },
   {
     "model": "auth.permission",
     "pk": 32,
     "fields": {
-      "name": "Can view Студент и группа",
+      "name": "Can view Урок",
       "content_type": 8,
-      "codename": "view_groupstudent"
+      "codename": "view_lesson"
     }
   },
   {
     "model": "auth.permission",
     "pk": 33,
     "fields": {
-      "name": "Can add Продукт",
+      "name": "Can add Учебная группа",
       "content_type": 9,
-      "codename": "add_product"
+      "codename": "add_group"
     }
   },
   {
     "model": "auth.permission",
     "pk": 34,
     "fields": {
-      "name": "Can change Продукт",
+      "name": "Can change Учебная группа",
       "content_type": 9,
-      "codename": "change_product"
+      "codename": "change_group"
     }
   },
   {
     "model": "auth.permission",
     "pk": 35,
     "fields": {
-      "name": "Can delete Продукт",
+      "name": "Can delete Учебная группа",
       "content_type": 9,
-      "codename": "delete_product"
+      "codename": "delete_group"
     }
   },
   {
     "model": "auth.permission",
     "pk": 36,
     "fields": {
-      "name": "Can view Продукт",
+      "name": "Can view Учебная группа",
       "content_type": 9,
-      "codename": "view_product"
+      "codename": "view_group"
     }
   },
   {
     "model": "auth.permission",
     "pk": 37,
     "fields": {
-      "name": "Can add Урок",
+      "name": "Can add Студент курса",
       "content_type": 10,
-      "codename": "add_lesson"
+      "codename": "add_productuser"
     }
   },
   {
     "model": "auth.permission",
     "pk": 38,
     "fields": {
-      "name": "Can change Урок",
+      "name": "Can change Студент курса",
       "content_type": 10,
-      "codename": "change_lesson"
+      "codename": "change_productuser"
     }
   },
   {
     "model": "auth.permission",
     "pk": 39,
     "fields": {
-      "name": "Can delete Урок",
+      "name": "Can delete Студент курса",
       "content_type": 10,
-      "codename": "delete_lesson"
+      "codename": "delete_productuser"
     }
   },
   {
     "model": "auth.permission",
     "pk": 40,
     "fields": {
-      "name": "Can view Урок",
+      "name": "Can view Студент курса",
       "content_type": 10,
-      "codename": "view_lesson"
+      "codename": "view_productuser"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Студент группы",
+      "content_type": 11,
+      "codename": "add_groupstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Студент группы",
+      "content_type": 11,
+      "codename": "change_groupstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Студент группы",
+      "content_type": 11,
+      "codename": "delete_groupstudent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Студент группы",
+      "content_type": 11,
+      "codename": "view_groupstudent"
     }
   },
   {
     "model": "auth.user",
     "pk": 1,
     "fields": {
-      "password": "pbkdf2_sha256$720000$N0AVvUpwweDWDwwvg3TrZm$e2f4hBumy7igmQ83z1rj2mUOMcyltsiZCfZO/rvcwCk=",
-      "last_login": "2024-02-29T18:25:47.953Z",
+      "password": "pbkdf2_sha256$720000$Tbn8kSI6wOfpl29M2qYTVq$Runw46nsqaVM1dqA4z34tN1ZDkB55sbcGEwYBaw4OQ0=",
+      "last_login": "2024-03-03T04:39:15.872Z",
       "is_superuser": true,
       "username": "bogdan",
       "first_name": "",
@@ -671,7 +655,7 @@
       "email": "",
       "is_staff": true,
       "is_active": true,
-      "date_joined": "2024-02-29T16:17:26.007Z",
+      "date_joined": "2024-03-03T04:38:27.568Z",
       "groups": [],
       "user_permissions": []
     }
@@ -680,8 +664,8 @@
     "model": "auth.user",
     "pk": 2,
     "fields": {
-      "password": "pbkdf2_sha256$720000$B7z3Rc9v9Nx6e6mpItqjQL$hnRF1+N8VJJphb58uXevjj1FC3t2XsscCrIu7Rcf4Og=",
-      "last_login": "2024-02-29T16:32:43.678Z",
+      "password": "pbkdf2_sha256$720000$Xs9y6G9vuy9PtgPRFIJ8nC$Bt89lDpNP857MS6xc2aPOZjo02ZaXX13LuB0DoQhSTw=",
+      "last_login": "2024-03-03T04:46:08.157Z",
       "is_superuser": true,
       "username": "kirill",
       "first_name": "",
@@ -689,7 +673,7 @@
       "email": "",
       "is_staff": true,
       "is_active": true,
-      "date_joined": "2024-02-29T16:32:32.651Z",
+      "date_joined": "2024-03-03T04:38:42.553Z",
       "groups": [],
       "user_permissions": []
     }
@@ -698,16 +682,16 @@
     "model": "auth.user",
     "pk": 3,
     "fields": {
-      "password": "pbkdf2_sha256$720000$GbhlTamEraudUhrHiOlWow$jrDWW6K/0gIHz1JwUYAclPL0TuqGYQvSj6TRRCgwWHw=",
+      "password": "pbkdf2_sha256$720000$4lnVSfHyIWpusuPM1IaGei$3ShYz8XiAL1LPofI42/mCt8NobgKlOOffEy4yCPScv0=",
       "last_login": null,
       "is_superuser": false,
-      "username": "grisha",
+      "username": "elizaveta",
       "first_name": "",
       "last_name": "",
       "email": "",
       "is_staff": false,
       "is_active": true,
-      "date_joined": "2024-02-29T16:39:58.360Z",
+      "date_joined": "2024-03-03T04:44:29.577Z",
       "groups": [],
       "user_permissions": []
     }
@@ -716,7 +700,25 @@
     "model": "auth.user",
     "pk": 4,
     "fields": {
-      "password": "pbkdf2_sha256$720000$6WqQVdY8ldqN8sCEKjovYe$PDpdNnVZ711+D0iX6XmY7/3qOYIyRZu+5S2CmmkH7Bk=",
+      "password": "pbkdf2_sha256$720000$sfyezIxFdLcaRGYdXLFU5H$cvIH5Bt9qGLG2ZNAkc6gbWwJ6JCg1rJFv+QArMSUUBE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "grisha",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2024-03-03T04:44:48.207Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$3X95eHVHgJNsh20aVvZvbI$3cqGbi4ujACA69QVKnSVdDah41XxFeYOkbdt9/vI7ns=",
       "last_login": null,
       "is_superuser": false,
       "username": "sergey",
@@ -725,7 +727,7 @@
       "email": "",
       "is_staff": false,
       "is_active": true,
-      "date_joined": "2024-02-29T18:12:29.608Z",
+      "date_joined": "2024-03-03T04:45:08.006Z",
       "groups": [],
       "user_permissions": []
     }
@@ -783,7 +785,7 @@
     "pk": 7,
     "fields": {
       "app_label": "base_application",
-      "model": "group"
+      "model": "product"
     }
   },
   {
@@ -791,7 +793,7 @@
     "pk": 8,
     "fields": {
       "app_label": "base_application",
-      "model": "groupstudent"
+      "model": "lesson"
     }
   },
   {
@@ -799,7 +801,7 @@
     "pk": 9,
     "fields": {
       "app_label": "base_application",
-      "model": "product"
+      "model": "group"
     }
   },
   {
@@ -807,15 +809,35 @@
     "pk": 10,
     "fields": {
       "app_label": "base_application",
-      "model": "lesson"
+      "model": "productuser"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+      "app_label": "base_application",
+      "model": "groupstudent"
     }
   },
   {
     "model": "sessions.session",
-    "pk": "od5lu7csd8195x19ng63mwpk1g0liihx",
+    "pk": "mjivp1x7g3jsu1c1q88rnqjvkxsa613p",
     "fields": {
-      "session_data": ".eJxVjDsOwjAQBe_iGln-BduU9DlDtN5d4wCypTipEHeHSCmgfTPzXmKCbS3T1nmZZhIXocXpd0uAD647oDvUW5PY6rrMSe6KPGiXYyN-Xg_376BAL98amYGNMZCD9ZRDMAmVTYRIhlFF7aOPzvGAg1eJonXs7DmDdoPBZEm8Pw3IOI8:1rfl6J:G-q-t4Ha6HHgKMh5sFSnOM1s6gmuETi1U8DuWFGWTk0",
-      "expire_date": "2024-03-14T18:25:47.956Z"
+      "session_data": ".eJxVjMsOwiAQRf-FtSE8C7h07zeQGRikaiAp7cr479qkC93ec859sQjbWuM2aIlzZmem2Ol3Q0gPajvId2i3zlNv6zIj3xV-0MGvPdPzcrh_BxVG_daTlwaLkhKLQAA0VgNlAWAClAJOuuJVIg_BhsnoYMkokbQP2unsrGfvD_keN9c:1rgdjk:oE_dAn4el0nPIL3uKGg3kzwmpXDun3mNRChLKY0NUzM",
+      "expire_date": "2024-03-17T04:46:08.160Z"
+    }
+  },
+  {
+    "model": "base_application.product",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "title": "'Поколение Python': курс для начинающих",
+      "data_start": "2024-03-03T04:39:54Z",
+      "price": 0,
+      "min_quant_students": 0,
+      "max_quant_students": 2
     }
   },
   {
@@ -823,35 +845,71 @@
     "pk": 2,
     "fields": {
       "author": 1,
-      "title": "\"Поколение Python\": курс для начинающих",
-      "data_start": "2024-02-29T16:29:06Z",
-      "price": 3500,
+      "title": "Интерактивный тренажер по SQL",
+      "data_start": "2024-02-23T09:00:00Z",
+      "price": 1000,
       "min_quant_students": 0,
-      "max_quant_students": 10
+      "max_quant_students": 5
     }
   },
   {
     "model": "base_application.product",
     "pk": 3,
     "fields": {
-      "author": 1,
-      "title": "Интерактивный тренажёр по SQL",
-      "data_start": "2024-02-11T21:00:00Z",
-      "price": 0,
+      "author": 2,
+      "title": "Deep Learning: базовый поток",
+      "data_start": "2024-03-30T15:00:00Z",
+      "price": 5000,
       "min_quant_students": 0,
-      "max_quant_students": 1000
+      "max_quant_students": 5
     }
   },
   {
-    "model": "base_application.product",
+    "model": "base_application.productuser",
+    "pk": 1,
+    "fields": {
+      "user": 3,
+      "product": 1
+    }
+  },
+  {
+    "model": "base_application.productuser",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "product": 1
+    }
+  },
+  {
+    "model": "base_application.productuser",
+    "pk": 3,
+    "fields": {
+      "user": 4,
+      "product": 1
+    }
+  },
+  {
+    "model": "base_application.productuser",
     "pk": 4,
     "fields": {
-      "author": 2,
-      "title": "Введение в Web разработку",
-      "data_start": "2024-03-10T09:00:00Z",
-      "price": 2500,
-      "min_quant_students": 0,
-      "max_quant_students": 5
+      "user": 2,
+      "product": 1
+    }
+  },
+  {
+    "model": "base_application.productuser",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "product": 2
+    }
+  },
+  {
+    "model": "base_application.productuser",
+    "pk": 6,
+    "fields": {
+      "user": 5,
+      "product": 3
     }
   },
   {
@@ -860,65 +918,82 @@
     "fields": {
       "title": "Основы языка Python",
       "link_to_video": "https://www.youtube.com/watch?v=wDmPgXhlDIg&t=12s",
-      "product": 2
+      "product": 1
     }
   },
   {
     "model": "base_application.lesson",
     "pk": 2,
     "fields": {
-      "title": "Введение в SQL",
-      "link_to_video": "https://www.youtube.com/watch?v=59xLm12RkFc&t=2s",
-      "product": 3
+      "title": "ООП Python",
+      "link_to_video": "https://www.youtube.com/watch?v=SandbIS5Roo&t=2s",
+      "product": 1
     }
   },
   {
     "model": "base_application.lesson",
     "pk": 3,
     "fields": {
-      "title": "Архитектура Web приложений",
-      "link_to_video": "https://cdn.stepik.net/video/28844/360/4dbb5b7f03ce3ddef1e2b2187ef61feb.mp4",
-      "product": 4
+      "title": "Введение в SQL и бд",
+      "link_to_video": "https://www.youtube.com/watch?v=bv5UqdWm-5k&t=15s",
+      "product": 2
+    }
+  },
+  {
+    "model": "base_application.lesson",
+    "pk": 4,
+    "fields": {
+      "title": "Лекция, введение в ИИ. Михаил Бурцев",
+      "link_to_video": "https://cdn.stepik.net/video/61552/360/4d55724d702ffae712a2bbff14350bb3.mp4",
+      "product": 3
     }
   },
   {
     "model": "base_application.group",
     "pk": 1,
     "fields": {
-      "title": "ИВТ-21БО",
-      "product": 2
+      "title": "IT-11MO",
+      "product": 1
     }
   },
   {
     "model": "base_application.group",
     "pk": 2,
     "fields": {
-      "title": "ИТ-11МО",
-      "product": 3
+      "title": "IT-21MO",
+      "product": 1
     }
   },
   {
     "model": "base_application.group",
     "pk": 3,
     "fields": {
-      "title": "ПИЭ-33БО",
-      "product": 4
+      "title": "IVT-11BO",
+      "product": 2
     }
   },
   {
     "model": "base_application.group",
     "pk": 4,
     "fields": {
-      "title": "ПИЭ-32БО",
-      "product": 4
+      "title": "PI-41BO",
+      "product": 3
+    }
+  },
+  {
+    "model": "base_application.groupstudent",
+    "pk": 1,
+    "fields": {
+      "user": 3,
+      "group": 1
     }
   },
   {
     "model": "base_application.groupstudent",
     "pk": 2,
     "fields": {
-      "user": 2,
-      "group": 3
+      "user": 1,
+      "group": 1
     }
   },
   {
@@ -926,15 +1001,31 @@
     "pk": 3,
     "fields": {
       "user": 4,
-      "group": 3
+      "group": 2
     }
   },
   {
     "model": "base_application.groupstudent",
     "pk": 4,
     "fields": {
-      "user": 1,
+      "user": 2,
       "group": 2
+    }
+  },
+  {
+    "model": "base_application.groupstudent",
+    "pk": 5,
+    "fields": {
+      "user": 5,
+      "group": 3
+    }
+  },
+  {
+    "model": "base_application.groupstudent",
+    "pk": 6,
+    "fields": {
+      "user": 5,
+      "group": 4
     }
   }
 ]

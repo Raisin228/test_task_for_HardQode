@@ -1,5 +1,5 @@
 from django.db.models import Count
-from rest_framework import viewsets, generics
+from rest_framework import viewsets, generics, permissions
 from rest_framework.exceptions import PermissionDenied
 from rest_framework.response import Response
 
@@ -27,6 +27,8 @@ class ProductAPIView(viewsets.ModelViewSet):
 
 class ProductLessonsAPIView(generics.ListAPIView):
     """Выдаём список всех уроков если пользователь имеет доступ к курсу"""
+
+    permission_classes = [permissions.IsAuthenticated]
     queryset = Lesson.objects.all()
     serializer_class = LessonsSerializer
     http_method_names = ['get']
@@ -41,4 +43,5 @@ class ProductLessonsAPIView(generics.ListAPIView):
 
         # Получаем все уроки с указанным product_id
         lessons = Lesson.objects.filter(product_id=product_id)
+
         return lessons
