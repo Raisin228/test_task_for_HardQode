@@ -110,7 +110,7 @@ Django приложения.
 
 ---
 
-[Database_schema](https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/Database_schema.png)
+<img src="https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/Database_schema.png">
 
 
 ### Фото проекта
