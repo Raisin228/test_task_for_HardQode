@@ -138,3 +138,7 @@ Django приложения.
 ###### *Фото №7. Документация к проекту [Swagger].*  
 <img src="https://github.com/Raisin228/test_task_for_HardQode/blob/main/photos/swagger.png">
 
+
+**Для тестирования** на localhost Redoc и Swagger доступны по ссылкам.  
+Redoc - http://127.0.0.1:8000/redoc/  
+Swagger - http://127.0.0.1:8000/swagger/
