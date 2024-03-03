@@ -1,0 +1,34 @@
+[
+  {
+    "model": "base_application.group",
+    "pk": 1,
+    "fields": {
+      "title": "IVT-11BO",
+      "product": 1
+    }
+  },
+  {
+    "model": "base_application.group",
+    "pk": 2,
+    "fields": {
+      "title": "IVT-21BO",
+      "product": 1
+    }
+  },
+  {
+    "model": "base_application.group",
+    "pk": 3,
+    "fields": {
+      "title": "IT-11MO",
+      "product": 2
+    }
+  },
+  {
+    "model": "base_application.group",
+    "pk": 4,
+    "fields": {
+      "title": "PI-41BO",
+      "product": 3
+    }
+  }
+]

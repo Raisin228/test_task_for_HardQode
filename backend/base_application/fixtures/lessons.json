@@ -1,0 +1,38 @@
+[
+  {
+    "model": "base_application.lesson",
+    "pk": 1,
+    "fields": {
+      "title": "Основы языка Python",
+      "link_to_video": "https://www.youtube.com/watch?v=wDmPgXhlDIg&t=12s",
+      "product": 1
+    }
+  },
+  {
+    "model": "base_application.lesson",
+    "pk": 2,
+    "fields": {
+      "title": "ООП Python",
+      "link_to_video": "https://www.youtube.com/watch?v=Z7AY41tE-3U&list=PLA0M1Bcd0w8zPwP7t-FgwONhZOHt9rz9E",
+      "product": 1
+    }
+  },
+  {
+    "model": "base_application.lesson",
+    "pk": 3,
+    "fields": {
+      "title": "Лекция, введение в ИИ. Михаил Бурцев",
+      "link_to_video": "https://cdn.stepik.net/video/61552/360/4d55724d702ffae712a2bbff14350bb3.mp4",
+      "product": 2
+    }
+  },
+  {
+    "model": "base_application.lesson",
+    "pk": 4,
+    "fields": {
+      "title": "Введение в SQL и бд",
+      "link_to_video": "https://www.youtube.com/watch?v=ZKU7-ktaa2o&t=1s",
+      "product": 3
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "model": "base_application.product",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "title": "'Поколение Python': курс для начинающих",
+      "data_start": "2024-02-07T21:00:00Z",
+      "price": 0,
+      "min_quant_students": 0,
+      "max_quant_students": 2
+    }
+  },
+  {
+    "model": "base_application.product",
+    "pk": 2,
+    "fields": {
+      "author": 1,
+      "title": "Deep Learning: базовый поток",
+      "data_start": "2024-03-01T09:00:00Z",
+      "price": 3500,
+      "min_quant_students": 0,
+      "max_quant_students": 10
+    }
+  },
+  {
+    "model": "base_application.product",
+    "pk": 3,
+    "fields": {
+      "author": 5,
+      "title": "Интерактивный тренажёр по SQL",
+      "data_start": "2024-03-03T08:36:13Z",
+      "price": 2349,
+      "min_quant_students": 0,
+      "max_quant_students": 100
+    }
+  }
+]
